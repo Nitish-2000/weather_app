@@ -18,6 +18,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(
              useMaterial3: true,
+             
       ),
     
       home:const  WeatherScreen(),
