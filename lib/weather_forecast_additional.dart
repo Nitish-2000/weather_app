@@ -22,7 +22,7 @@ class HourleyForecastItem extends StatelessWidget {
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(50)),
                       padding:const EdgeInsets.all(8.0),
                       child: Column(children: [
-                        Text(time, style:const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color:Color.fromARGB(255, 119, 110, 110) ),),
+                        Text(time, style:const TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color:Color.fromARGB(255, 119, 110, 110) ),maxLines: 2, overflow:TextOverflow.visible),
                        const SizedBox(height:10),
                         Icon(icon, color:const Color.fromARGB(255, 119, 110, 110),),
                        const SizedBox(height:10),
